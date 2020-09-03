@@ -8,6 +8,7 @@ const recognition = new SpeechRecognition();
 
 recognition.onstart = function() {
   console.log("It's Yippee Time!");
+  content.innerHTML = "OK!";
 };
 
 
