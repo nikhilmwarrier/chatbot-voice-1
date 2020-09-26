@@ -1,0 +1,55 @@
+body{
+  height: 100%;
+  width: 100%;
+}
+
+.qbox{
+  place-items: center;
+  background-color: white; 
+  color: #222222;
+  border: 1px solid #222222;
+  min-width: 50px;
+  height: auto;
+  min-height: 0px;
+  max-width: 85%;
+  margin: auto;
+  text-align: right;
+  padding: 3px;
+}
+
+.rbox {
+  place-items: center;
+  background-color: #99CCFF;
+  color: #222222;
+  border: 1px solid #222222;
+  min-width: 50px;
+  height: auto;
+  min-height: 0px;
+  max-width: 85%;
+  margin: auto;
+  margin-top: 20px;
+  text-align: left;
+  padding: 3px;
+  font-family: cursive;
+}
+
+.talk{
+  background: #99FF99;
+  border: 1px solid black;
+  color: #222222;
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  font-weight: bold;
+  position: absolute;
+  top: 75%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+h1{
+  color: #222222;
+  text-align: center;
+  font-family: cursive;
+  background-color: #FF6E6E;
+}
